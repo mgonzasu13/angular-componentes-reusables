@@ -1,0 +1,44 @@
+/* Add application styles & imports to this file! */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+/* styles.css */
+
+.app-tabs {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* ajusta el ancho según tus necesidades */
+  border: 1px solid #ccc;
+}
+
+.tab-content {
+  padding: 10px;
+}
+
+.tab-titles {
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+.tab-titles div {
+  padding: 10px;
+  cursor: pointer;
+  flex-grow: 1;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.tab-titles div.active {
+  background-color: #ddd;
+}
